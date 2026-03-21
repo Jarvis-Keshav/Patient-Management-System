@@ -1,0 +1,12 @@
+### Created a new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name":"Keshav Gupta",
+  "email":"keshav.gupta@example.com",
+  "address": "123 Main St, Springfield",
+  "dateOfBirth": "1985-06-15",
+  "registeredDate": "2024-01-10"
+}
+###
